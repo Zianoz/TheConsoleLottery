@@ -43,6 +43,7 @@ namespace TheConsoleLottery
                 return myTickets;
             }
 
+            // En metod för att generera 3 random tal och spara de i en array.
             int[] Numbergenerator()
             {
                 Random random = new Random();
